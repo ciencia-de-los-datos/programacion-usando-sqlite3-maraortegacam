@@ -42,4 +42,4 @@
 --  >>> Escriba su codigo a partir de este punto <<<
 --
 SELECT SUBSTRING(c23, 1, 4) AS Year, AVG(c21) AS AverageC21 FROM tbl2 
-GROUP BY SUBSTRING(c23, 1, 4)
+GROUP BY SUBSTRING(c23, 2, 4)
